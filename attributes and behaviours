@@ -1,0 +1,40 @@
+Attributes and Behaviours of the class University:
+Attributes/Variables:
+--> StudentID
+--> StudentName
+--> BranchName
+--> Rank
+Behaviours/Methods:
+--> GetStudentID
+--> SetStudentID
+--> GetStudentName
+--> SetStudentName
+--> GetRank
+
+Attributes and Behaviours of the class Bank:
+Attrubutes/Variables:
+--> BankName
+--> AccountholderName
+--> IFSCCODE
+--> BranchName
+--> AccountType
+--> AccountBalance
+Behaviour/Methods:
+--> GetBankName
+--> GetAccountHolderName
+--> GetIFSCCODE
+--> GetAccountType
+--> GetAccountBalance
+
+Attributes and Behaviour of class Radio:
+Attributes/Variables:
+--> Frequency
+--> Volume
+--> PowerState
+--> StationPresets
+Behaviour/Methods:
+--> GetFrequency
+--> SetFrequency
+--> AdjustVolume
+--> GetPowerState
+--> SetPowerState
