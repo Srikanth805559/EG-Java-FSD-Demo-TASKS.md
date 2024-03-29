@@ -1,0 +1,25 @@
+Algorithm to check if a number is negative number or positive number
+ i) Start
+ ii) Input the Number
+ iii) If the number is greater than zero, then it it positive number
+ iv) If the number is less than zero, then it is negative number
+ v) If the number is zero, then it is neither positive nor negative
+ vi) Output the result
+ vii) Stop
+
+Algorithm to check if a number is prime or not
+ i) Start
+ ii) Enter the Number
+ iii) If the number is less than 2, it's not a prime number
+ iv) If the number is 2, it is prime
+ v) Iterate from 2 to the square root of the number(inclusive)
+ vi) If the number is divisible by any integer in this range, its not prime number
+ vii) If the number is not divisible by any integer in this range, its prime
+ viii) Output the result
+ ix) Stop
+
+Algorithm to check if a number is armstrong
+ i) Start
+ ii) Input the number
+ iii) 
+
