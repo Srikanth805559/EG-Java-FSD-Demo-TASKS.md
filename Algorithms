@@ -21,5 +21,28 @@ Algorithm to check if a number is prime or not
 Algorithm to check if a number is armstrong
  i) Start
  ii) Input the number
- iii) 
+ iii) Find the number of digits in the input number
+ iv) Initialize a variable to store the sum of each digit raised to the power of the number of digits
+ v) Iterate through each digit of the input number
+ vi) Raise each digit to the power of the  number of digits and add it to the sum
+ vii) If the sum is equal to the input number, then the number is an Armstrong number,otherwise its not 
+ viii) Output the result
+ ix) Stop
 
+Algorithm to check if a year is leap year or not
+ i) Start
+ ii) Input the year
+ iii) If the year is divisible by 4, go to next step. If not, the year is not a leap year. END
+ iv) If the year is divisible by 100, go to next step. If not, the is a leap year. END
+ v) If the year is divisibke by 400, the year is a leap year, if not the year is not a leap year. END
+
+Algorithm to find n factorial of a number
+ i) Start
+ ii) Input the number n
+ iii) Initialize i=1, fact=1
+ iv) If (i>n) go to step (viii)
+ v) fact=fact * 1
+ vi) i = i+1
+ vii) go to step (iv)
+ viii) Print the value of fact
+ ix) Stop
