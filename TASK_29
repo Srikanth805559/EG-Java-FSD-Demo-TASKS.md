@@ -12,3 +12,17 @@ Java SE:
 Java ME:
 --> Java ME means Java Micro Edition
 --> It is used to provide a robust and complex applications running on Embedded and Mobile devices
+
+
+
+
+
+Q2:
+a)What is Compiler?
+--> Compiler is like a translator that means it will convert High level language into low level langauge i.e machine language
+--> It will generate class file
+--> source code means Java Program
+--> Compiler converts source code to byte code
+--> Java Development Kit(JDK) converts bytecode to binaries by using interpreter
+--> Java Virtual Machine (JVM) is a platform that need to run Java program
+--> Java Runtime Environment (JRE) is underlying technology that communicates between the Java program and the operating system 
