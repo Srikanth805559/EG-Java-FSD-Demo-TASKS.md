@@ -1,1 +1,14 @@
+Q1: What is EE, SE and ME?
 
+Java EE:
+--> Java EE means Java Enterprise Edition
+--> It is used for developing web apps and enterprise softwares which are more complex and robust.
+--> We can develop and run large scale ,reliable, secure network application.
+
+Java SE:
+--> Java SE means Java Standard Edition
+--> It is used to develop simple applications compatible for mobile and Desktop.
+
+Java ME:
+--> Java ME means Java Micro Edition
+--> It is used to provide a robust and complex applications running on Embedded and Mobile devices
