@@ -39,11 +39,13 @@ ________________________________________________________________________________
 
 JAVA WITH PUBLIC STATIC VOID MAIN STRING ARGS:
 
-public class withArgs {
+public class withPsvmsa {
    public static void main(String[] args) {
-     system.out.println("withArgs program");
+     system.out.println("withPsvmsa program");
   }
 }
+
+Output: withPsvmsa program
 
 
 
