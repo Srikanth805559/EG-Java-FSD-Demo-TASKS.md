@@ -29,3 +29,9 @@ a)What is Compiler?
 
 b) What is JVM architecure?
 --> Java Virtual Machine
+   It is main component of Java for executing bytecode
+   CLASS LOADER: save the class files into JVM memory
+   Bytecode Verifier: check the class files whether they are valid or invalid
+   JIT: just in time compilation is default option for development projects
+   AOT: Ahead of Time compilation is recommended for complex projects
+   Security Manager: Security policy for an app
