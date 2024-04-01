@@ -39,9 +39,9 @@ ________________________________________________________________________________
 
 JAVA WITH PUBLIC STATIC VOID MAIN STRING ARGS:
 
-public class withPSVMSA {
+public class withArgs {
    public static void main(String[] args) {
-     system.out.println("withPSVMSA program");
+     system.out.println("withArgs program");
   }
 }
 
