@@ -34,7 +34,7 @@ Algorithm to check if a year is leap year or not
  ii) Input the year
  iii) If the year is divisible by 4, go to next step. If not, the year is not a leap year. END
  iv) If the year is divisible by 100, go to next step. If not, the is a leap year. END
- v) If the year is divisibke by 400, the year is a leap year, if not the year is not a leap year. END
+ v) If the year is divisible by 400, the year is a leap year, if not the year is not a leap year. END
 
 Algorithm to find n factorial of a number
  i) Start
@@ -46,3 +46,24 @@ Algorithm to find n factorial of a number
  vii) go to step (iv)
  viii) Print the value of fact
  ix) Stop
+
+Algorithm to find fibonacci of a given number
+ i) Start
+ ii) Input the number, assume n.
+ iii) If n= 0 or 1, go to n
+ iv) assume a=0 and b=1
+ v) Iterate from 2
+    set a to the value of b
+    set b to the sum of a and b 
+ vi) After the loop, return b
+ viii) Stop
+
+Algorithm for driving from your place to your favourite destination
+ i) Start
+ ii) Determine the starting location and the destination
+ iii) Plan the route using a navigation system
+ iv) input the starting location and the destination.
+ v) Follow the suggested route
+ vi) Arrive your favourite destination safely
+ vii) Stop
+      
