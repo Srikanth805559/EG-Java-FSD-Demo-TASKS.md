@@ -1,0 +1,37 @@
+JAVA PROGRAM WITHOUT ARGS:
+
+public class withOutArg {
+   public static void main(string []) {
+      System.out.println("withoutArgs programs");
+
+ }
+
+}
+Error:     withOutArg.java:5: error: <identifier> expected
+          public static void main(string [])
+___________________________________________________________________________________________________________________________________
+
+
+
+JAVA PROGRAM WITHOUT STRING:
+
+public class withOutString {
+  public static void main(args) {
+     system.out.println("withOutString program");
+  }
+}
+Error: withOutString.java:2: error: <identifier> expected
+  public static void main(args) {
+______________________________________________________________________________________________________________________________________
+
+JAVA PROGRAM WITHOUT VOID:
+
+public class withOutVoid {
+  public static main(String[] args) {
+     system.out.println("withOutVoid program");
+
+   }
+
+}
+Error:withOutVoid.java:2: error: invalid method declaration; return type required
+  public static main(String[] args) {
