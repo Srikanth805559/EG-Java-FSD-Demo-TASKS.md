@@ -24,5 +24,8 @@ a)What is Compiler?
 --> source code means Java Program
 --> Compiler converts source code to byte code
 --> Java Development Kit(JDK) converts bytecode to binaries by using interpreter
---> Java Virtual Machine (JVM) is a platform that need to run Java program
+--> Java Virtual Machine (JVM) is a part of JRE
 --> Java Runtime Environment (JRE) is underlying technology that communicates between the Java program and the operating system 
+
+b) What is JVM architecure?
+--> Java Virtual Machine
