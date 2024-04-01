@@ -17,7 +17,7 @@ JAVA PROGRAM WITHOUT STRING:
 
 public class withOutString {
   public static void main(args) {
-     system.out.println("withOutString program");
+     System.out.println("withOutString program");
   }
 }
 Error: withOutString.java:2: error: <identifier> expected
@@ -28,7 +28,7 @@ JAVA PROGRAM WITHOUT VOID:
 
 public class withOutVoid {
   public static main(String[] args) {
-     system.out.println("withOutVoid program");
+     System.out.println("withOutVoid program");
 
    }
 
@@ -41,7 +41,7 @@ JAVA WITH PUBLIC STATIC VOID MAIN STRING ARGS:
 
 public class withPsvmsa {
    public static void main(String[] args) {
-     system.out.println("withPsvmsa program");
+     System.out.println("withPsvmsa program");
   }
 }
 
