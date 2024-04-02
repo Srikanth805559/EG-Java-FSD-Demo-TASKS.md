@@ -1,1 +1,26 @@
+TASK 1
+
+Operator %
+=============
+
+class Operatorseg{
+  public static void main(String arg[]) {
+       float r= 2.5f % 2;
+           System.out.println(r);
+   }
+}
+
+OUTPUT: 0.5
+
+Operator /
+=============
+
+class Operatorseg{
+  public static void main(String arg[]) {
+       float r= 2.5f / 2;
+           System.out.println(r);
+   }
+}
+
+OUTPUT: 1.25
 
