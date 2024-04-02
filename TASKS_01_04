@@ -61,6 +61,81 @@ ________________________________________________________________________________
 
 TASK 3
 
+class operators{
+   public static void main(String[] args){
+       int c=10;
+       c/=2;
+      System.out.println(c);
+   }
+}
+
+Output: 5
+logic: c/=2 ==> c = c/2
+       
+
+class operators{
+   public static void main(String[] args){
+       int c=10;
+       c%=2;
+      System.out.println(c);
+   }
+}
+
+Output: 0
+logic: c%=2 ==> c = c%2
+
+______________________________________________________________________________________________________________
+TASK 4
+
+class DecrEg{
+   public static void main(String ar[]){
+       int i=1;
+       System.out.println(i--);     //1
+       System.out.println(i);       // logic works here because of postdecrement
+  }
+}
+Output: 1
+        0
+
+class DecrEg{
+   public static void main(String ar[]){
+       int i=1;               //logic works here  because of predecrement 1-1=0
+       System.out.println(--i);    // 0 output
+       System.out.println(i);      // 0 still it has 0 value
+  }
+}
+
+Output: 0
+        0
+
+class DecrEg{
+   public static void main(String args[]){
+     int i=10;
+     System.out.println(i);    //print i value only
+     System.out.println(i--);  //print i value only
+     System.out.println(i);    //print i-1
+     System.out.println(i-- - i-- + i); //print 10-9+8
+}
+}
+Output:
+10
+10
+9
+8
+___________________________________________________________________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
