@@ -54,6 +54,7 @@ Ans: 5
 ________________________________________________________________________________________________________________
 
 TASK 3
+Operators / and %
 
 class operators{
    public static void main(String[] args){
@@ -80,6 +81,7 @@ logic: c%=2 ==> c = c%2
 
 ______________________________________________________________________________________________________________
 TASK 4
+Decrement examples
 
 class DecrEg{
    public static void main(String ar[]){
