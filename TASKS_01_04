@@ -36,6 +36,27 @@ i mean 2.5 % 2, in this
 
 ____________________________________________________________________________________________________________________________________________
 
+TASK2
+
+23 ==> 2+3=5
+54 ==> 5+4=9
+33 ==> 3+3=6
+19 ==> 1+9=1+0 // no need for this
+
+int r=14; use only literals (hardcoded values)
+
+program:
+
+class SumOfDigits{
+  public static void main(String args[]){
+        int number=23;
+        int tensDigit = number / 10;
+        int onesDigit = number % 10;
+        int sum = tensDigit + onesDigit;
+        System.out.println(sum);
+}
+}
+
 
 
 
