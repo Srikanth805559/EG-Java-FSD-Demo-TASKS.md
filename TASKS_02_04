@@ -3,7 +3,33 @@ For loop becomes infinite if we dont give condition properly in parantheses.
 
 class InfiniteFor{
     public static void main(String[] args){
-        for(;){
+        for(;;){
             System.out.println("infinite");
-  }
+    }
+   }
 }
+
+Output: infinite
+        infinite ... upto so on
+_________________________________________________________________________________________________________________________________
+
+
+TASK2
+
+|| OPERATOR
+================
+
+class ElseIfOr{
+      public static void main(String[] args){
+         int a=1;
+         int b=2;
+         int c=3;
+        if (a>b || b<c){
+            System.out.println("At least one condition is true");
+            } 
+        else{
+            System.out.println("Both conditions are false");
+        }
+    }
+}
+Output: Atleast one condition is true
