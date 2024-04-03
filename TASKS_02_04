@@ -1,1 +1,9 @@
+Q) When for loop becomes infinite?
+For loop becomes infinite if we dont give condition properly in parantheses.
 
+class InfiniteFor{
+    public static void main(String[] args){
+        for(;){
+            System.out.println("infinite");
+  }
+}
