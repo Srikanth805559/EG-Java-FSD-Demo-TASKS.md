@@ -1,1 +1,30 @@
+TASK1
 
+what is nested if?
+Ans: nested if means a loop that executed in another loop
+Example:
+
+public class NestedIf {
+    public static void main(String[] args) {
+        int a = 100;
+        int b = 200;
+           if(a > 50){
+                 System.out.println("a is greater than 50");
+          if(b > 100){
+                System.out.println("b is greater than 100");} 
+            else {
+                System.out.println("b is not greater than 100");}
+                }
+       else {
+            System.out.println("a is not greater than 50");
+        }
+    }
+}
+Output: a is greater than 50
+        b is greater  than 50
+___________________________________________________________________________________________________________________________________________________________________________
+TASK 2
+
+
+              
+       
