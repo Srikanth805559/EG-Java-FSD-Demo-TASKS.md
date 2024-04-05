@@ -37,4 +37,78 @@ class InfiniteFor{
 }
 
 Output: infinite
-        infinite ... upto so on   
+        infinite ... upto so on  
+_________________________________________________________________________________________________________________________________
+TASK 3
+
+for loop possibilities
+1)
+class ForEg{
+public static void main(String[] args){ 
+   int i=90;
+  for(;i>100;i++){
+  System.out.println("hi");
+}
+}
+}
+Result: compiled and get no error but result is blank
+
+2)
+class ForEg{
+public static void main(String[] args){ 
+   int i=90;
+  for(;i>100;i--){
+  System.out.println("hi");
+}
+}
+}
+Result: compiled and get no error but result is blank
+
+3)
+class ForEg{
+public static void main(String[] args){ 
+   int i=90;
+for(; ;i++){
+  System.out.println("hi");
+}
+}
+}
+Result: compiled and output is hi up to so on
+
+4)
+class ForEg{
+public static void main(String[] args){ 
+   int i=90;
+for(;i<100;i++){
+  System.out.println("hi");
+}
+}
+}
+Result: 
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+hi
+
+4)
+class ForEg{
+public static void main(String[] args){ 
+   
+int i=90;
+for(;i<100;i+=2){
+  System.out.println("hi");
+}
+}
+}
+Result:
+hi
+hi
+hi
+hi
+hi
