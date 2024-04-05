@@ -146,5 +146,37 @@ class SumOfDigits{
 
 Result: 1
 ______________________________________________________________________________________________________________________________
+TASK4
+Q) Write a program to find prime numbers from 2 to n
+here we assume n as 100
+so we can find prime numbers from 2 to 100 here
+Program:
+
+public class PrimeNumbers {
+    public static void main(String[] args){
+        int n = 100;
+        System.out.println("PrimeNumbers");
+        for (int i = 2; i <= n; i++) {
+            if (isPrime(i)) {
+                System.out.print(i + " ");
+            }
+        }
+    }
+    
+    public static boolean isPrime(int num) {
+        if (num <= 1) {
+            return false;
+        }
+        for (int i = 2; i * i <= num; i++) {
+            if (num % i == 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+}
 
 
+Output: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47 53 59 61 67 71 73 79 83 89 97
+
+______________________________________________________________________________________________________________________________________
