@@ -112,3 +112,15 @@ hi
 hi
 hi
 hi
+____________________________________________________________________________________________________________________________-
+
+TASK 3
+
+Q) Write a program to find sum of digits of numbrt  until we get a single digit as a sum
+
+Ans: According to question 
+the logic is, if a num is 53434 
+first--> 5+3-->8+4-->12+3-->15+4 =19-->again one more time 1+9=10 amd again 1+0=1 finally we get the ans as 1 here.
+Program:
+
+
