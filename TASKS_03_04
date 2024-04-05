@@ -123,4 +123,28 @@ the logic is, if a num is 53434
 first--> 5+3-->8+4-->12+3-->15+4 =19-->again one more time 1+9=10 amd again 1+0=1 finally we get the ans as 1 here.
 Program:
 
+class SumOfDigits{
+    public static void main(String[] args){
+        int num = 53434;
+        int sum = DigitSum(num);
+        int sumOfsum =DigitSum(sum);
+        int sumOfsumOfsum =DigitSum(sumOfsum);
+        System.out.println(sumOfsumOfsum);
+    }
+    
+    public static int DigitSum(int num){
+        int temp = num;
+        int sum = 0;
+        while (temp != 0){
+            int digit = temp % 10;
+            sum += digit;
+            temp /= 10;
+        }
+        return sum;
+    }
+}
+
+Result: 1
+
+
 
