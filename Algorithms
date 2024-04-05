@@ -1,4 +1,4 @@
-Algorithm to check if a number is negative number or positive number
+1. Algorithm to check if a number is negative number or positive number
  i) Start
  ii) Input the Number
  iii) If the number is greater than zero, then it it positive number
@@ -7,7 +7,7 @@ Algorithm to check if a number is negative number or positive number
  vi) Output the result
  vii) Stop
 
-Algorithm to check if a number is prime or not
+2. Algorithm to check if a number is prime or not
  i) Start
  ii) Enter the Number
  iii) If the number is less than 2, it's not a prime number
@@ -18,7 +18,7 @@ Algorithm to check if a number is prime or not
  viii) Output the result
  ix) Stop
 
-Algorithm to check if a number is armstrong
+3. Algorithm to check if a number is armstrong
  i) Start
  ii) Input the number
  iii) Find the number of digits in the input number
@@ -29,14 +29,14 @@ Algorithm to check if a number is armstrong
  viii) Output the result
  ix) Stop
 
-Algorithm to check if a year is leap year or not
+4. Algorithm to check if a year is leap year or not
  i) Start
  ii) Input the year
  iii) If the year is divisible by 4, go to next step. If not, the year is not a leap year. END
  iv) If the year is divisible by 100, go to next step. If not, the is a leap year. END
  v) If the year is divisible by 400, the year is a leap year, if not the year is not a leap year. END
 
-Algorithm to find n factorial of a number
+5. Algorithm to find n factorial of a number
  i) Start
  ii) Input the number n
  iii) Initialize i=1, fact=1
@@ -47,7 +47,7 @@ Algorithm to find n factorial of a number
  viii) Print the value of fact
  ix) Stop
 
-Algorithm to find fibonacci of a given number
+6. Algorithm to find fibonacci of a given number
  i) Start
  ii) Input the number, assume n.
  iii) If n= 0 or 1, go to n
@@ -58,7 +58,7 @@ Algorithm to find fibonacci of a given number
  vi) After the loop, return b
  viii) Stop
 
-Algorithm for driving from your place to your favourite destination
+7. Algorithm for driving from your place to your favourite destination
  i) Start
  ii) Determine the starting location and the destination
  iii) Plan the route using a navigation system
@@ -66,4 +66,61 @@ Algorithm for driving from your place to your favourite destination
  v) Follow the suggested route
  vi) Arrive your favourite destination safely
  vii) Stop
+
+
+8. Write an algorithm to find even numbers existing in a an array between the starting and ending position you give
+i) Create an empty list or array to store the even numbers found within the specified range.
+Iterate over the array from start to end position:
+ii) Start a loop from the start position to the end position
+For each index i within this range
+Retrieve the element at index i from the array.
+Check if the element at the current index is even
+iii) Check if the element at index i is even by performing the modulus operation (%) with 2.
+    If the result is 0, then the number is even.
+    Add the even number to the list of even numbers.
+    Return the list of even numbers
+
+
+9. Write an algorithm to find the sum of sub-array you pick dynamically should be greater than 10 and copy those values (not the sum) into another array
+
+
+i) Initialize an empty list to store the sub-array values
+  Create an empty list called newArray to store the values of sub-arrays whose sum is greater than 10.
+  Initialize two pointers: start = 0 and end = 0
+
+ ii) Set two pointers, start and end, to the beginning of the array (both pointing to index 0).
+  Initialize a variable sum = 0:
+
+iii) Initialize a variable sum to keep track of the current sum of the elements in the sub-array.
+  Iterate over the array while the end pointer is less than the length of the array
+
+iv) Start a loop that iterates over the array until the end pointer reaches the end of the array.
+   Increment the end pointer by 1
+
+ v) Move the end pointer to the next element in the array.
+   Add arr[end] to sum:
+
+  Add the value of the element at the end index of the array to the current sum.
+   While sum is greater than or equal to 10
+
+Start another loop to handle cases where the sum of the sub-array becomes greater than or equal to 10.
+Add the sub-array values from start to end (inclusive) to newArray:
+
+Add the values of the elements in the sub-array from index start to end (inclusive) to the newArray.
+If the sum is strictly greater than 10:
+
+If the sum is strictly greater than 10, it means we have a sub-array whose sum is greater than 10.
+Increment the start pointer by 1 to move to the next sub-array.
+Subtract arr[start] from sum:
+
+Subtract the value of the element at the start index from the current sum.
+This step is crucial to maintaining the sum of the sub-array greater than 10 while moving the sub-array window.
+If the sum is exactly 10:
+
+If the sum becomes exactly 10, it means we have reached a sub-array whose sum is exactly 10.
+In this case, we do not increment the start pointer to keep the sum unchanged, allowing further elements to be added to the sub-array until the sum exceeds 10.
+Return newArray:
+
+Once the loop completes, return the newArray containing the values of the sub-arrays whose sum is greater than 10.
+
       
