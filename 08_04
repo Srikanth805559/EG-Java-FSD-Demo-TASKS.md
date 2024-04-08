@@ -1,1 +1,44 @@
+Employee.java
+
+package in.eg.java.demo;
+
+public class Employee {
+
+	private Employee() 
+	{
+		System.out.println("i am constructor");
+	}
+
+
+
+
+TestConstructor.java
+
+package in.eg.java.demo;
+
+public class TestConstructor {
+
+	public static void main(String[] args) {
+		Employee employee1=new Employee();
+
+output: Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+	The constructor Employee() is not visible
+
+	at in.eg.java.demo.TestConstructor.main(TestConstructor.java:6)
+_________________________________________________________________________________________________________________________________________________________________
+
+
+2) Yes,we can make constructor as final..there is no impact on output
+
+
+3)if we keep int nearby constructor, it is asking return type or change it to void
+
+
+
+
+
+
+
+
+
 
