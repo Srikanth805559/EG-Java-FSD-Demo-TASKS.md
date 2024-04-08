@@ -25,13 +25,72 @@ output: Exception in thread "main" java.lang.Error: Unresolved compilation probl
 	The constructor Employee() is not visible
 
 	at in.eg.java.demo.TestConstructor.main(TestConstructor.java:6)
+
+
+Q1) Purpose of making constructor as private:
+Ans: making constructors private provides better control over how instances of a class are created and used.
+
 _________________________________________________________________________________________________________________________________________________________________
 
 
-2) Yes,we can make constructor as final..there is no impact on output
+2) making constuctor as final?
+
+
+Employee.java
+
+package in.eg.java.demo;
+
+public class Employee {
+
+	final private Employee() 
+	{
+		System.out.println("i am constructor");
+	}
+
+
+
+
+TestConstructor.java
+
+package in.eg.java.demo;
+
+public class TestConstructor {
+
+	public static void main(String[] args) {
+		Employee employee1=new Employee();
+
+Result: Illegal modifier for the constructor in type Employee; only public, protected & private are permitted
+ 
+    
 
 
 3)if we keep int nearby constructor, it is asking return type or change it to void
+
+
+4)
+ class emp {
+  private static int count = 0;
+  public emp() {
+    count++;
+}
+    public static int getCount() {
+    return count;
+}
+}
+
+public class empCount {
+ public static void main(String[] args) {
+  emp a = new emp();
+  emp b = new emp();
+  emp c = new emp();
+  emp d = new emp();
+  emp e = new emp();
+System.out.println(emp.getCount());
+}
+}
+
+output: 5
+
 
 
 
