@@ -1,1 +1,91 @@
+TASK1
 
+Q)what if my child class has lesser access modifier?
+
+-->parent class:
+  method defined as public access modifier
+-->child class:
+  method defined as private access modifier
+It will error while doing compilation
+hence access modifier of parent class and child class should be same.
+________________________________________________________________________________________________________________________
+
+TASK2
+
+Q) Inheritance for standard calc, scientific and programmer calc?
+    Parent class: Standard calc
+    child classes: Scientific and programmer calc
+
+     StandardCalc
+       addition()
+       multiplication()
+       substraction()
+       division()
+   ScientificCalc extands StandardCalc
+     //unique code
+        Deg()
+        Rad()
+        exp()
+        log()
+    ProgrammerCalc extands StandardCalc
+     //unique code
+        hex()
+        dec()
+        oct()
+        bin()
+___________________________________________________________________________________________________________________-
+
+TASK 3
+
+Q) Radio,TV,DVD player- identify the apt parent class and implement inheritance
+  Parent class is Electronics
+
+ Electronics
+   PowerState()
+   turnon()
+   turnoff()
+   volume()
+ Radio extands Electronics
+   // unique code
+   frequency()
+   SetFrequency()
+ TV extands Electronics
+    // unique code
+    ChannelUp()
+    ChannelDown()
+    av()
+ DVDplayer extands Electronics
+   // unique code 
+    forward()
+    rewind()
+    pause()
+
+_____________________________________________________________________________________________________________________
+TASK 4
+
+Admin, Manager, Finance 
+parent class: Department
+
+Department
+  login()
+  logout()
+  information()
+Admin extands Department
+  // unique code
+  AdminId()
+Manager extannds Department
+  // unique code
+  ManagerId()
+Finance extands Department()
+  // unique code
+  Accountinfo()
+  EmployeeSalary()
+    
+ 
+
+
+
+     
+
+
+     
